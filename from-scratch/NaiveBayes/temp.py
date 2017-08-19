@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+
+''' temporary version before 'using-functions', 'using-classes' '''
+
 import numpy as np
 
 from collections import Counter

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import numpy as np
 from sklearn.naive_bayes import GaussianNB
 
@@ -15,7 +17,7 @@ train_X = np.asarray(
 )
 
 train_Y = np.asarray((0,1,1,1,0,1,0,1))
-train_Y = np.asarray((0,2,1,1,0,1,0,2))
+#train_Y = np.asarray((0,2,1,1,0,1,0,2)) # to use more than two labels
 
 test_X = np.asarray(
     (
